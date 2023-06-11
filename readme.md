@@ -21,21 +21,22 @@ from the requirements.txt file (pip install -r requirements.txt).
 ## Directory Structure 
 The code assumes the following directory structure:
 
-├── root 
-| ├── analysis_scripts
-  | ├── disk 
-  | ├── unet
-  | ├── utils
-  | ├── microscopy_analysis.ipynb
-  | ├── readme.md 
-├── replicate1 
-| ├── sample1-bright.tif 
-| ├── sample1-BFP.tif 
-| ├── sample1-GFP.tif 
-| ├── sample1-RFP.tif
-| ├── (etc. for other samples) 
-├── (etc. for other replicates)
+├── root  
+| ├── analysis_scripts   
+|  | ├── disk   
+|  | ├── unet  
+|  | ├── utils  
+|  | ├── microscopy_analysis.ipynb  
+├── replicate1  
+| ├── sample1-bright.tif  
+| ├── sample1-BFP.tif  
+| ├── sample1-GFP.tif  
+| ├── sample1-RFP.tif  
+| ├── (etc. for other samples)  
+├── (etc. for other replicates)  
 
 The .tif files containing each image channel can be generated with the
-ImageJ macro \"split_and_save\". Important: ensure that comparable
+ImageJ macro \"split_and_save\". 
+
+:warning: Important: ensure that comparable
 samples in different replicate folders have exactly the same file names!
