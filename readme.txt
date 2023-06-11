@@ -7,6 +7,11 @@ Create an environment using the provided environment.yml file (https://conda.io/
 
 Alternativelly create a virtual environment in the command line with python 3.9 (conda create -n myenv python=3.9), then activate the environment (conda activate myenv) and install the necessary packages from the requirements.txt file (pip install -r requirements.txt).
 
+Download the parameters for the neural network: 
+Download the parameters for segmenting bright-field images from: https://drive.google.com/file/d/1vnhkp54McM836yczh4F-YYJwPahbTsY0. Put the file in the folder /unet.
+Download the parameters for segmenting phase contrast images from: https://drive.google.com/file/d/1tcdl34Aq11mrPVlyu0Qd4rUigw_6948b. Put the file in the folder /unet.
+Check the original https://github.com/rahi-lab/YeaZ-GUI for updates.
+
 DIRECTORY STRUCTURE
 The code assumes the following directory structure:
 
